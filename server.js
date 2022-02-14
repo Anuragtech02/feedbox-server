@@ -86,6 +86,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(port, () => {
+server.listen(process.env.PORT || port, () => {
   console.log(`Server is running on PORT ${port}`);
 });
