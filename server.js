@@ -20,7 +20,7 @@ const notion = new Client({
 });
 
 const host = "localhost";
-const port = 8000;
+const port = 5000;
 
 // Require an async function here to support await with the DB query
 const server = http.createServer(async (req, res) => {
